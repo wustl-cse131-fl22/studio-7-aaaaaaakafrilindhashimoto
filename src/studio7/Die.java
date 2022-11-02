@@ -1,10 +1,14 @@
 package studio7;
 
 public class Die {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public int dice;
+	public int n;
+	
+	public int getDice() {
+		return dice; 
+	}
+	public void rollDice() {
+		dice = (int) Math.random() * n + 1;
 	}
 
 }

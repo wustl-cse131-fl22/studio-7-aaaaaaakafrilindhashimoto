@@ -1,10 +1,10 @@
 package studio7;
 
 public class Fraction {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	public void comDenominator(int denominator1, int denominator2, int comDenominator){
+		while (comDenominator % denominator1 != 0 && comDenominator % denominator2 != 0) {
+		
 	}
 
 }
